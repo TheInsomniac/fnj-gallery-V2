@@ -1,11 +1,7 @@
 #Flickr-NodeJS-JQuery V2 (FNJ Gallery)
 
-<<<<<<< HEAD
 *Version 2 based upon Jade/Stylus for a more "dynamic" site. Also automatically
 compresses JS and CSS files on the fly*  
-=======
-*Version 2 based upon Jade/Stylus for a more "dynamic" site. Also automatically compresses JS and CSS files on the fly*  
->>>>>>> 93a4b56d48169f1c4ded202581810bd95ed4fa0a
 
 This gallery connects via the Flickr API (using oauth) and retreives Photosets  
 and photos on the fly.  
@@ -38,10 +34,7 @@ _e.g. "My Trip to Italy" -> "Day 1"_
 "quote" is the inspirational quote displayed on the index page.  
 "quoteAuthor" is the author of the above quote.  
 
-<<<<<<< HEAD
     
-=======
->>>>>>> 93a4b56d48169f1c4ded202581810bd95ed4fa0a
     {
         "api_key": "YourApiKeyHere", 
         "api_secret": "YourApiSecretHere", 
