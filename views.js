@@ -62,18 +62,24 @@ function getViews(express, app, config, flickr) {
           data.push({large:this[i].large, thumb:this[i].thumb});
         }
         if (config.use === "collections") {
+          if (!collections.length) {
+            getCollections();
+          }
           res.render("gallery", {
             meta : config.use,
             title : req.query.title,
             data : JSON.stringify(data),
-            getAlbums : "getCollections();"
+            getAlbums : JSON.stringify(collections)
           });
         } else {
+          if (!photosets.length) {
+            getSets();
+          }
           res.render("gallery", {
             meta : config.use,
             title : req.query.title,
             data : JSON.stringify(data),
-            getAlbums : "getSets();"
+            getAlbums : JSON.stringify(photosets)
           });
         }
       });

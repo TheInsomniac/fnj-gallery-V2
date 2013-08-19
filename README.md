@@ -1,14 +1,13 @@
-#Flickr-NodeJS-JQuery (FNJ Gallery)
+#Flickr-NodeJS-JQuery V2 (FNJ Gallery)
 
-*Note: This is my first attempt at **anything** javascript / NODE.js*  
-This, appearance wise, is identical to my "Flickr-Python-JQuery" gallery but is based  
-entirely on node.js and does not use static JSON files.  
+*Version 2 based upon Jade/Stylus for a more "dynamic" site. Also automatically
+compresses JS and CSS files on the fly*  
 
 This gallery connects via the Flickr API (using oauth) and retreives Photosets  
 and photos on the fly.  
 
 ###Installation:  
-    git clone git://github.com/manxam/fnj-gallery.git
+    git clone git://github.com/manxam/fnj-gallery-V2.git
     npm install
 
 ###Configuration:  
@@ -29,11 +28,12 @@ If your photosets on flickr are arranged into sets then change "use" to collecti
 This will enable recursive listings such that the Collection name is the Album
 root and the collections beneath are the sub-albums.  
 
+_e.g. "My Trip to Italy" -> "Day 1"_
+
 "title" sets the title of the photo gallery's index page.  
 "quote" is the inspirational quote displayed on the index page.  
 "quoteAuthor" is the author of the above quote.  
 
-_e.g. "My Trip to Italy" -> "Day 1"_
     
     {
         "api_key": "YourApiKeyHere", 

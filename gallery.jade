@@ -1,0 +1,26 @@
+extends layout
+block head
+  link(rel='stylesheet', type='text/css', href='css/swipebox.css')
+  link(rel='stylesheet', type='text/css', href='css/gallery.css')
+block navbar
+  ul#menu.nav
+    li
+      a(href='/')
+        i.icon-picture  
+        | Home
+block content
+  .row-fluid
+        .span10.offset1
+          #loading
+          #gallery
+block script
+  script.
+    var data = !{data};
+  script(src='//code.jquery.com/jquery-1.10.1.min.js')
+  script(src='js/jquery.loadImage.min.js')
+  script(src='js/jquery.swipebox.min.js')
+  script(src='js/gallery.min.js')
+  script(src='js/albums.min.js')
+  script.
+    var items = !{getAlbums};
+    slideOut(items);
