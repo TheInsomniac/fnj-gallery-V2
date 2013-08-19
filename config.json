@@ -1,0 +1,15 @@
+{
+        "api_key": "YourApiKeyHere",
+        "api_secret": "YourApiSecretHere",
+        "user_id": "YourUserIdHere",
+        "oauth_token": "YourOauthTokenHere",
+        "oauth_secret": "YourOauthSecretHere",
+        "use": "sets",
+        "title": "My Photo Gallery",
+        "quote": "“My Inspirational Quote Here”",
+        "quoteAuthor": "Unknown",
+        "host": "127.0.0.1",
+        "port": "8080",
+        "node_env": production,
+        "runServer": true
+}

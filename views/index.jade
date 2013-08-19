@@ -1,0 +1,17 @@
+extends layout
+block content
+  .row-fluid
+     #quote.span7
+      .well.well-large
+        h3.text-center
+          | #{quote}
+        p(style='float: right; font-size: larger;')
+          | - #{author}
+block script
+  script(src='//code.jquery.com/jquery-1.10.1.min.js')
+  script(src='js/point.min.js')
+  script(src='js/transform.min.js')
+  script(src='js/albums.min.js')
+  script.
+    var items = !{getAlbums};
+    slideOut(items);
