@@ -29,12 +29,12 @@ If your photosets on flickr are arranged into sets then change "use" to collecti
 This will enable recursive listings such that the Collection name is the Album
 root and the collections beneath are the sub-albums.  
 
+_e.g. "My Trip to Italy" -> "Day 1"_
+
 "title" sets the title of the photo gallery's index page.  
 "quote" is the inspirational quote displayed on the index page.  
 "quoteAuthor" is the author of the above quote.  
 
-_e.g. "My Trip to Italy" -> "Day 1"_
-    
     {
         "api_key": "YourApiKeyHere", 
         "api_secret": "YourApiSecretHere", 
