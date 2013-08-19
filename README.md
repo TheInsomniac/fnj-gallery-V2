@@ -1,8 +1,6 @@
-#Flickr-NodeJS-JQuery (FNJ Gallery)
+#Flickr-NodeJS-JQuery V2 (FNJ Gallery)
 
-*Note: This is my first attempt at **anything** javascript / NODE.js*  
-This, appearance wise, is identical to my "Flickr-Python-JQuery" gallery but is based  
-entirely on node.js and does not use static JSON files.  
+*Version 2 based upon Jade/Stylus for a more "dynamic" site. Also automatically compresses JS and CSS files on the fly*  
 
 This gallery connects via the Flickr API (using oauth) and retreives Photosets  
 and photos on the fly.  
