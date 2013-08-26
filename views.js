@@ -37,7 +37,6 @@ function getViews(express, app, config, flickr) {
         title : config.title,
         quote : config.quote,
         author : config.quoteAuthor,
-        //getAlbums : "getCollections();"
         getAlbums : JSON.stringify(collections)
       });
     } else {
@@ -48,7 +47,6 @@ function getViews(express, app, config, flickr) {
         title : config.title,
         quote : config.quote,
         author : config.quoteAuthor,
-        //getAlbums : "getSets();"
         getAlbums : JSON.stringify(photosets)
       });
     }

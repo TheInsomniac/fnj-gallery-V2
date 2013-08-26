@@ -5,7 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "express": "~3.3.5",
-    "flickr-oauth": "flickr-oauth" :  "git://github.com/manxam/nodejs-flickr-oauth.git",
+    "flickr-oauth" :  "git://github.com/manxam/nodejs-flickr-oauth.git",
     "jade": "~0.34.1",
     "stylus": "~0.36.1",
     "uglifyjs-middleware": "~0.0.5"
